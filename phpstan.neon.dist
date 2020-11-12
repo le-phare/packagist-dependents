@@ -1,0 +1,8 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - ./packagist_dependents.php
+    excludes_analyse:
+        - ./vendor/*
+        - ./bin/*
